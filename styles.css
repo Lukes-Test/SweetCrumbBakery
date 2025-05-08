@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f4f1;
+  color: #333;
+}
+
+header {
+  background-color: #f3b400;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  color: white;
+}
+
+header p {
+  font-size: 16px;
+  color: white;
+}
+
+.hero {
+  position: relative;
+  background-color: #f8f4f1;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.menu {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.menu h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  background-color: #f8f4f1;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+}
+
+.menu-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  padding: 20px;
+  background-color: #f3b400;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: #f3b400;
+  text-decoration: none;
+  margin: 0 10px;
+}
